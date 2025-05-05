@@ -25,7 +25,7 @@ const productos= [
         nombre: "pulover",
         color: "Verde",
         talle: "M", 
-        precio: 4000
+        precio: 9000
     },
     {
         id: 5, 
@@ -33,6 +33,27 @@ const productos= [
         color: "Celeste",
         talle: "S", 
         precio: 13000
+    },
+    {
+        id: 6, 
+        nombre: "Zapatillas",
+        color: "Azul",
+        talle: "45", 
+        precio: 12000
+    },
+    {
+        id: 7, 
+        nombre: "Jeans",
+        color: "negro",
+        talle: "xl", 
+        precio: 13000
+    },
+    {
+        id: 8, 
+        nombre: "pulover",
+        color: "Rojo",
+        talle: "S", 
+        precio: 9000
     },
 ]
 let cartProducts = []

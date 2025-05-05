@@ -20,4 +20,13 @@ function renderCarrito(cartItems) {
     totalContainer.innerText = `Total: $${total}`
     cartContainer.appendChild(totalContainer)
 }
+
 renderCarrito(cartStorage)
+
+const btnBorrarLS = document.getElementById("borrar-carrito")
+
+btnBorrarLS.onclick = () => {
+    localStorage.clear() // Borra TODO el localStorage
+    location.reload()    // Recarga la página para reflejar los cambios
+}
+
