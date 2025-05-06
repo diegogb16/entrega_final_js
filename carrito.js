@@ -10,7 +10,7 @@ function renderCarrito(cartItems) {
         cart.innerHTML = `<h3>${producto.nombre}</h3>
                         <p>${producto.color}</p>
                         <P>${producto.talle}</p>
-                        <p>${producto.precio}</p>`
+                        <p>$${producto.precio}</p>`
         cartContainer.appendChild(cart)
 
         total +=producto.precio
