@@ -59,6 +59,8 @@ const productos= [
 let cartProducts = []
 let productsContainer = document.getElementById("products-container")
 
+
+
 function renderProductos(productsArray) {
     productsArray.forEach(producto => {
         const card = document.createElement("div")
@@ -71,6 +73,9 @@ function renderProductos(productsArray) {
     })
     addToCartButton()
 }
+
+
+
 renderProductos(productos)
 
 
