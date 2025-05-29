@@ -102,3 +102,65 @@ h1, h2 {
 #borrar-carrito:hover {
     background-color: #0056b3;
 }
+#pagar-pedido {
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#pagar-pedido:hover {
+    background-color: #0056b3;
+}
+
+#formulario-pago {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#formulario-pago h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#formulario-pago form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formulario-pago input,
+#formulario-pago select {
+    padding: 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#formulario-pago button {
+    padding: 15px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formulario-pago button:hover {
+    background-color: #0056b3;
+}
+
