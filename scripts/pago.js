@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        // Paso 1: mostrar carga
+        
         Swal.fire({
             title: 'Procesando pago...',
             html: 'Por favor esperá un momento',
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-        // Simulamos espera de 2 segundos y luego mostramos resumen
+        
         setTimeout(() => {
             Swal.fire({
                 icon: 'success',

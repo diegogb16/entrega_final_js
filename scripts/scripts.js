@@ -86,8 +86,14 @@ function addToCartButton () {
             const productId = e.currentTarget.id
             const selecterProducts = productos.find(producto => producto.id == productId)
             cartProducts.push(selecterProducts)
-            alert("¡Producto agregado con éxito!")
             
+            Swal.fire({
+                icon: 'success',
+                title: '¡Producto agregado!',
+                text: `"${selecterProducts.nombre}" fue añadido al carrito.`,
+                showConfirmButton: false,
+                timer: 1500
+            });
 
             localStorage.setItem("cartProducts", JSON.stringify(cartProducts))
         }
